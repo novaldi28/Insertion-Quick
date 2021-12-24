@@ -1,8 +1,8 @@
 import random
-
-print("SILAHKAN PILIH : ")
+print("Selamat Datang Di Aplikasi Pengurutan Biiangan")
+n = int(input("Masukan jumlah bilangan yang diinginkan :  "))
+print("PILIHAN : ")
 print("1.Insertion Sort\n2. QuickSort")
-n = int(input("enter array size\n"))
 x = int(input("Pilihan : "))
 
 def partition(arr, low, high):
